@@ -5,9 +5,9 @@ class ToolError(Exception):
         self.message = message
 
 
-class OpenManusError(Exception):
-    """Base exception for all OpenManus errors"""
+class NewsCatcherError(Exception):
+    """Base exception for all NewsCatcher errors"""
 
 
-class TokenLimitExceeded(OpenManusError):
+class TokenLimitExceeded(NewsCatcherError):
     """Exception raised when the token limit is exceeded"""

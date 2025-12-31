@@ -1,3 +1,3 @@
 """
-OpenManus benchmark system for standardized agent evaluation.
+NewsCatcher benchmark system for standardized agent evaluation.
 """

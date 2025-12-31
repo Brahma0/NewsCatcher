@@ -1,9 +1,9 @@
 # Manus Agent with A2A Protocol
 
-This is an experimental integration of the A2A protocol (https://google.github.io/A2A/#/documentation) with OpenManus, currently supporting only non-streaming mode.
+This is an experimental integration of the A2A protocol (https://google.github.io/A2A/#/documentation) with NewsCatcher, currently supporting only non-streaming mode.
 
 ## Prerequisites
-- conda activate 'Your OpenManus python env'
+- conda activate 'Your NewsCatcher python env'
 - pip install a2a-sdk==0.2.5
 
 
@@ -27,7 +27,7 @@ This is an experimental integration of the A2A protocol (https://google.github.i
    uv run .
    ```
 
-3. Send tasks to OpenManus via A2A Client CLI or Register A2A Agent Server in UI
+3. Send tasks to NewsCatcher via A2A Client CLI or Register A2A Agent Server in UI
 
 
 ## Examples

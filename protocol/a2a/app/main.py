@@ -70,7 +70,7 @@ async def main(host: str = "localhost", port: int = 10000):
         ]
 
         agent_card = AgentCard(
-            name="Manus Agent",
+            name="NewsCatcher Agent",
             description="A versatile agent that can solve various tasks using multiple tools including MCP-based tools",
             url=f"http://{host}:{port}/",
             version="1.0.0",
@@ -82,7 +82,7 @@ async def main(host: str = "localhost", port: int = 10000):
 
         httpx_client = httpx.AsyncClient()
         request_handler = DefaultRequestHandler(
-            agent_executor=ManusExecutor(
+            agent_executor=NewsCatcherExecutor(
                 agent_factory=lambda: A2AManus.create(max_steps=3)
             ),
             task_store=InMemoryTaskStore(),

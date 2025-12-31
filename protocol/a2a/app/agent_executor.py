@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-class ManusExecutor(AgentExecutor):
+class NewsCatcherExecutor(AgentExecutor):
     """Currency Conversion AgentExecutor Example."""
 
     def __init__(self, agent_factory: Callable[[], Awaitable[A2AManus]]):

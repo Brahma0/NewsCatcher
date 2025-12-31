@@ -4,24 +4,24 @@
 
 English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](README_ja.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=social)](https://github.com/FoundationAgents/OpenManus/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/Brahma0/NewsCatcher?style=social)](https://github.com/Brahma0/NewsCatcher/stargazers)
 &ensp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &ensp;
 [![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
 [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/lyh-917/OpenManusDemo)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15186407.svg)](https://doi.org/10.5281/zenodo.15186407)
 
-# 👋 OpenManus
+# 👋 NewsCatcher
 
-Manus is incredible, but OpenManus can achieve any idea without an *Invite Code* 🛫!
+Manus is incredible, but NewsCatcher can achieve any idea without an *Invite Code* 🛫!
 
 Our team members [@Xinbin Liang](https://github.com/mannaandpoem) and [@Jinyu Xiang](https://github.com/XiangJinyu) (core authors), along with [@Zhaoyang Yu](https://github.com/MoshiQAQ), [@Jiayi Zhang](https://github.com/didiforgithub), and [@Sirui Hong](https://github.com/stellaHSR), we are from [@MetaGPT](https://github.com/geekan/MetaGPT). The prototype is launched within 3 hours and we are keeping building!
 
 It's a simple implementation, so we welcome any suggestions, contributions, and feedback!
 
-Enjoy your own agent with OpenManus!
+Enjoy your own agent with NewsCatcher!
 
-We're also excited to introduce [OpenManus-RL](https://github.com/OpenManus/OpenManus-RL), an open-source project dedicated to reinforcement learning (RL)- based (such as GRPO) tuning methods for LLM agents, developed collaboratively by researchers from UIUC and OpenManus.
+We're also excited to introduce [NewsCatcher-RL](https://github.com/NewsCatcher/NewsCatcher-RL), an open-source project dedicated to reinforcement learning (RL)- based (such as GRPO) tuning methods for LLM agents, developed collaboratively by researchers from UIUC and NewsCatcher.
 
 ## Project Demo
 
@@ -43,8 +43,8 @@ conda activate open_manus
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/FoundationAgents/OpenManus.git
-cd OpenManus
+git clone https://github.com/Brahma0/NewsCatcher.git
+cd NewsCatcher
 ```
 
 3. Install dependencies:
@@ -64,8 +64,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/FoundationAgents/OpenManus.git
-cd OpenManus
+git clone https://github.com/Brahma0/NewsCatcher.git
+cd NewsCatcher
 ```
 
 3. Create a new virtual environment and activate it:
@@ -90,7 +90,7 @@ playwright install
 
 ## Configuration
 
-OpenManus requires configuration for the LLM APIs it uses. Follow these steps to set up your configuration:
+NewsCatcher requires configuration for the LLM APIs it uses. Follow these steps to set up your configuration:
 
 1. Create a `config.toml` file in the `config` directory (you can copy from the example):
 
@@ -118,7 +118,7 @@ api_key = "sk-..."  # Replace with your actual API key
 
 ## Quick Start
 
-One line for run OpenManus:
+One line for run NewsCatcher:
 
 ```bash
 python main.py
@@ -139,7 +139,7 @@ python run_flow.py
 
 ### Custom Adding Multiple Agents
 
-Currently, besides the general OpenManus Agent, we have also integrated the DataAnalysis Agent, which is suitable for data analysis and data visualization tasks. You can add this agent to `run_flow` in `config.toml`.
+Currently, besides the general NewsCatcher Agent, we have also integrated the DataAnalysis Agent, which is suitable for data analysis and data visualization tasks. You can add this agent to `run_flow` in `config.toml`.
 
 ```toml
 # Optional configuration for run-flow
@@ -180,13 +180,13 @@ Additionally, we are grateful to [AAAJ](https://github.com/metauto-ai/agent-as-a
 
 We also thank stepfun(阶跃星辰) for supporting our Hugging Face demo space.
 
-OpenManus is built by contributors from MetaGPT. Huge thanks to this agent community!
+NewsCatcher is built by contributors from MetaGPT. Huge thanks to this agent community!
 
 ## Cite
 ```bibtex
 @misc{openmanus2025,
   author = {Xinbin Liang and Jinyu Xiang and Zhaoyang Yu and Jiayi Zhang and Sirui Hong and Sheng Fan and Xiao Tang},
-  title = {OpenManus: An open-source framework for building general AI agents},
+  title = {NewsCatcher: An open-source framework for building general AI agents},
   year = {2025},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.15186407},

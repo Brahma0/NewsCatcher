@@ -4,25 +4,25 @@
 
 [English](README.md) | 中文 | [한국어](README_ko.md) | [日本語](README_ja.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=social)](https://github.com/FoundationAgents/OpenManus/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/Brahma0/NewsCatcher?style=social)](https://github.com/Brahma0/NewsCatcher/stargazers)
 &ensp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &ensp;
 [![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
 [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/lyh-917/OpenManusDemo)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15186407.svg)](https://doi.org/10.5281/zenodo.15186407)
 
-# 👋 OpenManus
+# 👋 NewsCatcher
 
-Manus 非常棒，但 OpenManus 无需邀请码即可实现任何创意 🛫！
+Manus 非常棒，但 NewsCatcher 无需邀请码即可实现任何创意 🛫！
 
 我们的团队成员 [@Xinbin Liang](https://github.com/mannaandpoem) 和 [@Jinyu Xiang](https://github.com/XiangJinyu)（核心作者），以及 [@Zhaoyang Yu](https://github.com/MoshiQAQ)、[@Jiayi Zhang](https://github.com/didiforgithub) 和 [@Sirui Hong](https://github.com/stellaHSR)，来自 [@MetaGPT](https://github.com/geekan/MetaGPT)团队。我们在 3
 小时内完成了开发并持续迭代中！
 
 这是一个简洁的实现方案，欢迎任何建议、贡献和反馈！
 
-用 OpenManus 开启你的智能体之旅吧！
+用 NewsCatcher 开启你的智能体之旅吧！
 
-我们也非常高兴地向大家介绍 [OpenManus-RL](https://github.com/OpenManus/OpenManus-RL)，这是一个专注于基于强化学习（RL，例如 GRPO）的方法来优化大语言模型（LLM）智能体的开源项目，由来自UIUC 和 OpenManus 的研究人员合作开发。
+我们也非常高兴地向大家介绍 [NewsCatcher-RL](https://github.com/NewsCatcher/NewsCatcher-RL)，这是一个专注于基于强化学习（RL，例如 GRPO）的方法来优化大语言模型（LLM）智能体的开源项目，由来自UIUC 和 NewsCatcher 的研究人员合作开发。
 
 ## 项目演示
 
@@ -119,7 +119,7 @@ api_key = "sk-..."  # 替换为真实 API 密钥
 
 ## 快速启动
 
-一行命令运行 OpenManus：
+一行命令运行 NewsCatcher：
 
 ```bash
 python main.py
@@ -140,7 +140,7 @@ python run_flow.py
 
 ## 添加自定义多智能体
 
-目前除了通用的 OpenManus Agent, 我们还内置了DataAnalysis Agent，适用于数据分析和数据可视化任务，你可以在`config.toml`中将这个智能体加入到`run_flow`中
+目前除了通用的 NewsCatcher Agent, 我们还内置了DataAnalysis Agent，适用于数据分析和数据可视化任务，你可以在`config.toml`中将这个智能体加入到`run_flow`中
 ```toml
 # run-flow可选配置
 [runflow]
@@ -183,7 +183,7 @@ use_data_analysis_agent = true     # 默认关闭，将其改为true则为激活
 
 我们也感谢阶跃星辰 (stepfun) 提供的 Hugging Face 演示空间支持。
 
-OpenManus 由 MetaGPT 社区的贡献者共同构建，感谢这个充满活力的智能体开发者社区！
+NewsCatcher 由 MetaGPT 社区的贡献者共同构建，感谢这个充满活力的智能体开发者社区！
 
 ## 引用
 ```bibtex

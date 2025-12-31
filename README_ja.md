@@ -11,17 +11,17 @@
 [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/lyh-917/OpenManusDemo)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15186407.svg)](https://doi.org/10.5281/zenodo.15186407)
 
-# 👋 OpenManus
+# 👋 NewsCatcher
 
-Manusは素晴らしいですが、OpenManusは*招待コード*なしでどんなアイデアも実現できます！🛫
+Manusは素晴らしいですが、NewsCatcherは*招待コード*なしでどんなアイデアも実現できます！🛫
 
 私たちのチームメンバー [@Xinbin Liang](https://github.com/mannaandpoem) と [@Jinyu Xiang](https://github.com/XiangJinyu)（主要開発者）、そして [@Zhaoyang Yu](https://github.com/MoshiQAQ)、[@Jiayi Zhang](https://github.com/didiforgithub)、[@Sirui Hong](https://github.com/stellaHSR) は [@MetaGPT](https://github.com/geekan/MetaGPT) から来ました。プロトタイプは3時間以内に立ち上げられ、継続的に開発を進めています！
 
 これはシンプルな実装ですので、どんな提案、貢献、フィードバックも歓迎します！
 
-OpenManusで自分だけのエージェントを楽しみましょう！
+NewsCatcherで自分だけのエージェントを楽しみましょう！
 
-また、UIUCとOpenManusの研究者が共同開発した[OpenManus-RL](https://github.com/OpenManus/OpenManus-RL)をご紹介できることを嬉しく思います。これは強化学習（RL）ベース（GRPOなど）のLLMエージェントチューニング手法に特化したオープンソースプロジェクトです。
+また、UIUCとNewsCatcherの研究者が共同開発した[NewsCatcher-RL](https://github.com/NewsCatcher/NewsCatcher-RL)をご紹介できることを嬉しく思います。これは強化学習（RL）ベース（GRPOなど）のLLMエージェントチューニング手法に特化したオープンソースプロジェクトです。
 
 ## プロジェクトデモ
 
